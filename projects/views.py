@@ -11,6 +11,7 @@ def add_books(request):
         author = request.POST['author'] 
         description = request.POST['description'] 
         tags = request.POST['tags']
+    return render(request, 'templates/add_book.html')
 
 
 
