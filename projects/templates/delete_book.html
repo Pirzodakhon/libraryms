@@ -1,0 +1,14 @@
+{% extands 'main.html' %}
+
+
+{% block content %}
+
+<form>
+    <p>Do you want delete "{{object}}"? </p>
+    <a href="{% url 'main' %}">
+<button>Return</button>
+    </a>
+    <input type="submit" value="Confirm">
+</form>
+
+{% endblock %}
