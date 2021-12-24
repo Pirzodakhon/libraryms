@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<div class="container">
+    <form method="POST"> {% csrf_token %}
+    <div class="book_name">
+        <div class="b_n">
+            <label><i style="font-weight: bold;">Book Name</i></label>
+            <input type="text" class="form-control mt-2" name="name" placeholder="Enter name of the Book" required>
+        </div>
+    </div>
+ 
+    <div class="book_name">
+        <div class="b_n">
+            <label><i style="font-weight: bold;">Author Name</i></label>
+            <input type="text" class="" name="author" placeholder="Enter name of the Author" required>
+        </div>
+    </div>
+ 
+    <div class="book_name">
+        <div class="b_n">
+            <label><i style="font-weight: bold;">Description</i></label>
+            <input type="text" class="b_n" name="category" placeholder="Enter Description of the book" required>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-outline-b_n">Add Book</button>
+</div>
+</form>

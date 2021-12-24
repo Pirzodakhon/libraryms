@@ -1,0 +1,8 @@
+from django.urls import path
+
+from projects.views import main
+from . import views
+
+urlpatterns = [
+    path('', views.main, name="projects"),
+]
